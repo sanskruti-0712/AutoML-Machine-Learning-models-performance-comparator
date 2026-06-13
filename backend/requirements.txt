@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+shap
+optuna
+reportlab
+google-generativeai
+python-dotenv
+python-multipart
+pydantic

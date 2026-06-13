@@ -51,41 +51,6 @@ An advanced, end-to-end AutoML platform and AI-Powered Data Science Advisor. Thi
 
 ---
 
-## 📂 Project Structure
-
-```
-├── .github/workflows/
-│   └── ci.yml               # GitHub Actions CI workflow
-├── backend/
-│   ├── app/
-│   │   ├── auto_ml/         # AutoML Core Logic
-│   │   │   ├── advisor.py     # Rule-based & Gemini Advisor
-│   │   │   ├── detector.py    # Problem type auto-detect
-│   │   │   ├── explain.py     # SHAP & Feature Importance
-│   │   │   ├── preprocessor.py# Smart Data Imputer/Encoder
-│   │   │   ├── reporter.py    # PDF report builder
-│   │   │   └── trainer.py     # Training and evaluation loop
-│   │   │   └── tuner.py       # Optuna hyperparameter tuner
-│   │   └── main.py          # FastAPI server entrypoint
-│   ├── tests/
-│   │   ├── verify.py        # Sanity check validation run
-│   │   └── test_auto_ml.py  # Pytest automation tests
-│   ├── Dockerfile
-│   └── requirements.txt     # Python backend dependencies
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx          # Main dashboard view
-│   │   ├── index.css        # Tailwind v4 setup & Minimalist CSS
-│   │   └── main.jsx
-│   ├── Dockerfile
-│   ├── vite.config.js       # Vite configuration
-│   └── package.json
-├── docker-compose.yml       # Docker container coordinator
-└── README.md
-```
-
----
-
 ## ⚙️ Setup & Execution
 
 ### Option A: Standard Local Run
@@ -120,6 +85,7 @@ Open `http://localhost:5173` in your browser.
 Spin up the entire platform in containerized environments:
 ```bash
 docker-compose up --build
+
 ```
 Access the application at `http://localhost:3000` (FastAPI backend will run on port `8000`).
 
