@@ -1,10 +1,10 @@
-# AutoML Evaluation Platform & AI-Powered ML Advisor ⭐⭐⭐⭐⭐
+# AutoML Evaluation Platform & AI-Powered ML Advisor
 
 An advanced, end-to-end AutoML platform and AI-Powered Data Science Advisor. This application automates dataset ingestion, conducts problem detection, executes a smart data preprocessing pipeline, trains and evaluates multiple machine learning algorithms in parallel, visualizes SHAP explanations, tunes hyperparameters via Optuna, generates downloadable PDF evaluation reports, and uses Gemini GenAI to explain model performance.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### 1. Automatic Problem & Time-Series Detection
 - Automatically parses uploaded files (`.csv`, `.xlsx`, `.xls`) to extract dimensions, schema structures, and missing value rates.
@@ -42,7 +42,7 @@ An advanced, end-to-end AutoML platform and AI-Powered Data Science Advisor. Thi
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Backend**: Python 3.13+, FastAPI, Uvicorn, Pandas, NumPy, Scikit-Learn, XGBoost, LightGBM, SHAP, Optuna, ReportLab, Google GenerativeAI.
 - **Frontend**: React 18, Vite, Tailwind CSS v4, Recharts, Lucide Icons.
@@ -51,7 +51,7 @@ An advanced, end-to-end AutoML platform and AI-Powered Data Science Advisor. Thi
 
 ---
 
-## ⚙️ Setup & Execution
+##  Setup & Execution
 
 ### Option A: Standard Local Run
 
